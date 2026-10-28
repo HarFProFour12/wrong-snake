@@ -1,6 +1,6 @@
 # Spreadsheet Snake 🐍
 A fully playable Snake game that runs inside google sheets, built with Apps Script. The board is a grid made up of cells, the controls are clickable buttons drawn on the sheet, and scores are saved in a second tab (+ a small board for the top 5 scores).
-(images/main.png)
+![Spreadsheet Snake Game](images/main.png)
 
 ## Features
 * 16×16 board with checkerboard pattern
@@ -38,7 +38,9 @@ If the time limit is reached, the board freezes and shows TIME UP.
 
 ### Buttons
 Create each button with Insert → Drawing (a shape with text), then click the three dots on it and choose Assign script.
-(images/start.png)(images/reset.png)(images/pause.png)
+![Spreadsheet Snake Game](images/start.png)
+![Spreadsheet Snake Game](images/reset.png)
+![Spreadsheet Snake Game](images/pause.png)
 ```
 Button                         Script Name
 ---------------------------------------------------
@@ -62,7 +64,7 @@ Teal theme                     themeTeal
 Indigo theme                   themeIndigo
 Lavender theme                 themeLavender
 ```
-(images/buttons.png)
+![Spreadsheet Snake Game](images/buttons.png)
 
 ## How it works
 The game saves information like the snake's position, food, walls, score, and direction using JSON in document properties. This allows the buttons and the game to work separately.
