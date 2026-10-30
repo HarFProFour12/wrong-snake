@@ -75,5 +75,6 @@ Scores are saved in the `scores` tab, along with the player's name, score, date,
 
 ## AI Usage
 I used AI while making this project, mainly because I'd never used Apps Script before, and was unfamiliar with all the functions. Moreover, I also used it to fix some bugs and errors and suggest solutions to problems I had.
+
 ---
 Made by Harry Fanouriakis
