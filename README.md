@@ -38,6 +38,7 @@ If the time limit is reached, the board freezes and shows TIME UP.
 
 ### Buttons
 Create each button with Insert → Drawing (a shape with text), then click the three dots on it and choose Assign script.
+
 ![Spreadsheet Snake Game](images/start.png)
 ![Spreadsheet Snake Game](images/reset.png)
 ![Spreadsheet Snake Game](images/pause.png)
